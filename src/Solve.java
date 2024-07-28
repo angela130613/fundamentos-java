@@ -191,6 +191,14 @@ public class Solve {
                     System.out.println("x es igual: " + x16 + "y es igual: " + y16);
                     break;
 
+                case 17:
+                    System.out.println("¿Qué se imprimirá en la consola?\n" +
+                            "int a = 5; System.out.println(a++); System.out.println(a);");
+                    int a17 = 5;
+                    System.out.println(a17++);
+                    System.out.println(a17);
+                    break;
+
 
 
                 case 0:
