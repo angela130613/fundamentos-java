@@ -279,6 +279,16 @@ public class Solve {
                     System.out.println("El valor short resultante es: " + valorShort);
                     break;
 
+                case 27:
+                    System.out.println("""
+                            ¿Qué valor tendrá x después de estas operaciones?
+                            int x = 10;\s
+                            x += (x++) + (++x);""");
+                    int x27 = 10;
+                    x27 += (x27++) + (++x27);
+                    System.out.println(x27);
+                    break;
+
                 case 0:
                     System.out.println("¡Hasta luego!");
                     break;
