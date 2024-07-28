@@ -137,6 +137,13 @@ public class Solve {
                     System.out.println("El resultado es: " + resultadoI); // Imprime 4
                     break;
 
+                case 10:
+                    System.out.println("Dado byte b = 50;, ¿cómo lo convertirías a short?");
+                    byte b = 50;
+                    int s = (short) b;
+                    System.out.println(s);
+                    break;
+
 
 
                 case 0:
