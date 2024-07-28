@@ -253,6 +253,13 @@ public class Solve {
                     System.out.println(i23--);
                     break;
 
+                case 24:
+                    System.out.println("Crea una expresión que use casteo y un operador de asignación compuesta para dividir un int por 2.0 y asignar el resultado a una variable double.");
+                    int numeroEntero = 10;
+                    double resultado24 = (double) numeroEntero / 2.0;
+                    System.out.println(resultado24);
+                    break;
+
                 case 0:
                     System.out.println("¡Hasta luego!");
                     break;
