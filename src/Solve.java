@@ -183,6 +183,14 @@ public class Solve {
                     System.out.println("Devuelve el cuadrado del numero ingresado: " + x15);
                     break;
 
+                case 16 :
+                    System.out.println("¿Cuál es el valor de x e y después de estas operaciones?\n" +
+                            "int x = 5; int y = ++x;");
+                    int x16 = 5;
+                    int y16 = ++x16;
+                    System.out.println("x es igual: " + x16 + "y es igual: " + y16);
+                    break;
+
 
 
                 case 0:
