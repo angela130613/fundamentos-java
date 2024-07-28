@@ -289,6 +289,14 @@ public class Solve {
                     System.out.println(x27);
                     break;
 
+                case 28:
+                    System.out.println("Crea una expresión que use casteo para convertir un float a un byte, y luego usa el operador de predecremento.");
+                    float valorFloat = 3.7f;
+                    byte valorByte = (byte) valorFloat; // Conversión de float a byte
+                    --valorByte; // Predecremento en 1
+                    System.out.println("El valor byte resultante es: " + valorByte);
+                    break;
+
                 case 0:
                     System.out.println("¡Hasta luego!");
                     break;
