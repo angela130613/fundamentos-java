@@ -113,6 +113,17 @@ public class Solve {
                     System.out.println("El carácter es: " + caracter);
                     break;
 
+                case 7:
+                    System.out.println("¿Qué sucede si intentas asignar un long a un int sin casteo explícito?");
+                    long valorLong = 123456789L;
+                    try {
+                        int valorInt = Math.toIntExact(valorLong);
+                        System.out.println("El valor int es: " + valorInt);
+                    } catch (ArithmeticException e) {
+                        System.out.println("El valor long no puede convertirse a int sin desbordamiento.");
+                    }
+                    break;
+
                 case 0:
                     System.out.println("¡Hasta luego!");
                     break;
