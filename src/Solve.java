@@ -297,6 +297,17 @@ public class Solve {
                     System.out.println("El valor byte resultante es: " + valorByte);
                     break;
 
+                case 29:
+                    System.out.println("""
+                            ¿Cuál es el resultado de la siguiente operación?
+                            int i = 257;\s
+                            byte b = (byte)i;\s
+                            System.out.println(b);""");
+                    int i29 = 257;
+                    byte b29 = (byte)i29;
+                    System.out.println(b29);
+                    break;
+
                 case 0:
                     System.out.println("¡Hasta luego!");
                     break;
