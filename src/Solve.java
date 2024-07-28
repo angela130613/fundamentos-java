@@ -131,6 +131,13 @@ public class Solve {
                     System.out.println(resultadoNum);// El resultado es: "1.2345678"
                     break;
 
+                case 9:
+                    System.out.println("¿Cuál es el resultado de (int) Math.round(3.7)?");
+                    int resultadoI = (int) Math.round(3.7);
+                    System.out.println("El resultado es: " + resultadoI); // Imprime 4
+                    break;
+
+
 
                 case 0:
                     System.out.println("¡Hasta luego!");
