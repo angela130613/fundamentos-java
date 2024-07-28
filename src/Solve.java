@@ -93,6 +93,13 @@ public class Solve {
                     System.out.println(i);
                     break;
 
+                case 4:
+                    System.out.println("Escribe código para convertir un String que contiene un número a un int.?");
+                    String numCadena = "1234";
+                    int numEntero = Integer.parseInt(numCadena);
+                    System.out.println("El número entero es: " + numEntero);
+                    break;
+
                 case 0:
                     System.out.println("¡Hasta luego!");
                     break;
