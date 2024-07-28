@@ -176,6 +176,13 @@ public class Solve {
                     System.out.println(x14);
                     break;
 
+                case 15:
+                    System.out.println("¿Qué hace la siguiente operación? x ^= 2;");
+                    int x15 = scanner.nextInt();
+                    x15 ^= 2;
+                    System.out.println("Devuelve el cuadrado del numero ingresado: " + x15);
+                    break;
+
 
 
                 case 0:
