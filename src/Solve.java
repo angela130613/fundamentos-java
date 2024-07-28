@@ -199,6 +199,13 @@ public class Solve {
                     System.out.println(a17);
                     break;
 
+                case 18:
+                    System.out.println("Escribe código que use el operador de decremento para disminuir una variable count en 1.");
+                    int count = 10;
+                    count--; // Decremento en 1
+                    System.out.println("El valor de count después del decremento es: " + count);
+                    break;
+
 
 
                 case 0:
