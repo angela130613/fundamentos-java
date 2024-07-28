@@ -240,6 +240,19 @@ public class Solve {
                     System.out.println("El valor int resultante es: " + valorInt);
                     break;
 
+                case 23:
+                    System.out.println("""
+                            ¿Qué se imprimirá en la consola?
+                            double d = 5.7;\s
+                            int i = (int)d;\s
+                            i *= 2;\s
+                            System.out.println(i--);""");
+                    double d23 = 5.7;
+                    int i23 = (int)d23;
+                    i23 *= 2;
+                    System.out.println(i23--);
+                    break;
+
                 case 0:
                     System.out.println("¡Hasta luego!");
                     break;
