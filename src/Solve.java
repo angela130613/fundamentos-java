@@ -168,6 +168,14 @@ public class Solve {
                     System.out.println(a);
                     break;
 
+                case 14:
+                    System.out.println("Escribe una expresión equivalente a x = x + y usando un operador de asignación compuesta.");
+                    double x14 = scanner.nextInt();
+                    double y14 = scanner.nextInt();
+                    x14 = x14 + y14;
+                    System.out.println(x14);
+                    break;
+
 
 
                 case 0:
