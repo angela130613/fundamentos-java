@@ -260,6 +260,17 @@ public class Solve {
                     System.out.println(resultado24);
                     break;
 
+                case 25:
+                    System.out.println("""
+                            ¿Cuál es el resultado de la siguiente operación?
+                            char c = 'X';\s
+                            c += 32;\s
+                            System.out.println(c);""");
+                    char c25 = 'X';
+                    c25 += 32;
+                    System.out.println(c25);
+                    break;
+
                 case 0:
                     System.out.println("¡Hasta luego!");
                     break;
