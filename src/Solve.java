@@ -106,6 +106,13 @@ public class Solve {
                     System.out.println("El resultado es: " + resultado);
                     break;
 
+                case 6:
+                    System.out.println("Convierte el número 65 a un char. ¿Qué carácter obtienes?");
+                    int numero = 65;
+                    char caracter = (char) numero;
+                    System.out.println("El carácter es: " + caracter);
+                    break;
+
                 case 0:
                     System.out.println("¡Hasta luego!");
                     break;
