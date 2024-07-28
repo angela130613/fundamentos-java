@@ -222,6 +222,16 @@ public class Solve {
                     System.out.println(x20 );
                     break;
 
+                case 21:
+                    System.out.println("""
+                            ¿Cuál es el resultado de la siguiente expresión?
+                            int i = 5;
+                            i += ++i + i++ + ++i;""");
+                    int i21 = 5;
+                    i21 += ++i21 + i21++ + ++i21;
+                    System.out.println(i21);
+                    break;
+
                 case 0:
                     System.out.println("¡Hasta luego!");
                     break;
