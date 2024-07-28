@@ -160,6 +160,14 @@ public class Solve {
                     System.out.println(y);
                     break;
 
+                case 13:
+                    System.out.println("¿Cuál es el valor de a después de estas operaciones?\n" +
+                            "int a = 15; a %= 4;");
+                    int a = 15;
+                    a %= 4;
+                    System.out.println(a);
+                    break;
+
 
 
                 case 0:
