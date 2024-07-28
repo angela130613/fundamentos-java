@@ -144,6 +144,13 @@ public class Solve {
                     System.out.println(s);
                     break;
 
+                case 11:
+                    System.out.println("¿Cuál es el valor de x después de la siguiente operación?");
+                    int x2 = 10;
+                    x2 += 5;
+                    System.out.println(x2);
+                    break;
+
 
 
                 case 0:
