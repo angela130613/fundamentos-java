@@ -84,6 +84,15 @@ public class Solve {
                     float myA = (int) c;
                     System.out.println("El valor ASCII de " + c + "es: " + myA);
                     break;
+
+                case 3:
+                    System.out.println("¿Qué valor se imprimirá?");
+                    double d = 100.04;
+                    long l = (long)d;
+                    int i = (int)l;
+                    System.out.println(i);
+                    break;
+
                 case 0:
                     System.out.println("¡Hasta luego!");
                     break;
