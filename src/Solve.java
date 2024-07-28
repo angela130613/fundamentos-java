@@ -232,6 +232,14 @@ public class Solve {
                     System.out.println(i21);
                     break;
 
+                case 22:
+                    System.out.println("Escribe código para convertir un double a un int, y luego incrementa el resultado en 1 usando el operador de postincremento.");
+                    double valorDouble = 3.7;
+                    int valorInt = (int) valorDouble; // Conversión de double a int
+                    valorInt++; // Incremento en 1 usando el operador de postincremento
+                    System.out.println("El valor int resultante es: " + valorInt);
+                    break;
+
                 case 0:
                     System.out.println("¡Hasta luego!");
                     break;
