@@ -151,6 +151,15 @@ public class Solve {
                     System.out.println(x2);
                     break;
 
+                case 12:
+                    System.out.println("Simplifica la siguiente expresión usando un operador de asignación compuesta:\n" +
+                            "y = y * (x + 5);");
+                    int y = scanner.nextInt();
+                    int x12 = scanner.nextInt();
+                    y  *=  (x12 + 5);
+                    System.out.println(y);
+                    break;
+
 
 
                 case 0:
