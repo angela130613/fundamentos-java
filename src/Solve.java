@@ -124,6 +124,13 @@ public class Solve {
                     }
                     break;
 
+                case 8:
+                    System.out.println("Escribe código para convertir un float a un String.");
+                    float num = 1.2345678f;
+                    String resultadoNum = Float.toString(num);
+                    System.out.println(resultadoNum);// El resultado es: "1.2345678"
+                    break;
+
 
                 case 0:
                     System.out.println("¡Hasta luego!");
