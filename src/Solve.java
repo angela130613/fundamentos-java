@@ -308,6 +308,15 @@ public class Solve {
                     System.out.println(b29);
                     break;
 
+                case 30:
+                    System.out.println("Escribe una expresión que combine casteo, un operador de asignación compuesta y un operador de incremento para convertir un double a un int, sumarle 5 y luego incrementarlo en 1.");
+                    double valorDouble30 = 7.8;
+                    int valorInt30 = (int) valorDouble30; // Conversión de double a int
+                    valorInt30 += 5; // Suma 5
+                    ++valorInt30; // Incremento en 1
+                    System.out.println("El valor int resultante es: " + valorInt30);
+                    break;
+
                 case 0:
                     System.out.println("¡Hasta luego!");
                     break;
