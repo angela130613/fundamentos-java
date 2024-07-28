@@ -100,6 +100,12 @@ public class Solve {
                     System.out.println("El número entero es: " + numEntero);
                     break;
 
+                case 5:
+                    System.out.println("¿Cuál es el resultado de (int) (char) (byte) -1?");
+                    float resultado = (int) (char) (byte) -1;
+                    System.out.println("El resultado es: " + resultado);
+                    break;
+
                 case 0:
                     System.out.println("¡Hasta luego!");
                     break;
