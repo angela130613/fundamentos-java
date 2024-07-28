@@ -202,11 +202,25 @@ public class Solve {
                 case 18:
                     System.out.println("Escribe código que use el operador de decremento para disminuir una variable count en 1.");
                     int count = 10;
-                    count--; // Decremento en 1
+                    count--;
                     System.out.println("El valor de count después del decremento es: " + count);
                     break;
 
+                case 19:
+                    System.out.println("¿Cuál es la diferencia entre ++i y i++?");
+                    int i19 = 5;
+                    int resultado19_1 = ++i19;
+                    int resultado19_2 = i19++;
+                    System.out.println("Resultado 1 " + resultado19_1 + "Resultado 2" + resultado19_2);
+                    break;
 
+                case 20:
+                    System.out.println("¿Qué valor tendrá x después de esta operación?\n" +
+                            "int x = 3; x = x++;");
+                    int x20 = 3;
+                    x20 = x20++;
+                    System.out.println(x20 );
+                    break;
 
                 case 0:
                     System.out.println("¡Hasta luego!");
