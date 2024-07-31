@@ -274,8 +274,8 @@ public class Solve {
                 case 26:
                     System.out.println("Escribe código para convertir un long a un short, y luego usa un operador de asignación compuesta para multiplicarlo por 3.");
                     long valorLong26 = 123456789L;
-                    short valorShort = (short) valorLong26; // Conversión de long a short
-                    valorShort *= 3; // Multiplicación por 3 usando el operador de asignación compuesta
+                    short valorShort = (short) valorLong26;
+                    valorShort *= 3;
                     System.out.println("El valor short resultante es: " + valorShort);
                     break;
 
