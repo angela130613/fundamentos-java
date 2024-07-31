@@ -211,7 +211,7 @@ public class Solve {
                     int i19 = 5;
                     int resultado19_1 = ++i19;
                     int resultado19_2 = i19++;
-                    System.out.println("Resultado 1 " + resultado19_1 + "Resultado 2" + resultado19_2);
+                    System.out.println("Resultado 1: " + resultado19_1 + " Resultado 2: " + resultado19_2);
                     break;
 
                 case 20:
@@ -235,8 +235,8 @@ public class Solve {
                 case 22:
                     System.out.println("Escribe código para convertir un double a un int, y luego incrementa el resultado en 1 usando el operador de postincremento.");
                     double valorDouble = 3.7;
-                    int valorInt = (int) valorDouble; // Conversión de double a int
-                    valorInt++; // Incremento en 1 usando el operador de postincremento
+                    int valorInt = (int) valorDouble;
+                    valorInt++;
                     System.out.println("El valor int resultante es: " + valorInt);
                     break;
 
